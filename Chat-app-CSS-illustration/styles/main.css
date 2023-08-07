@@ -66,6 +66,21 @@ img {
     rgba(233, 66, 255, 1) 0%,
     rgba(136, 56, 255, 1) 100%
   );
+  border-radius: 2em 2em 0.625em 0.625em;
+  gap: 1.5em;
+}
+
+.cam-space-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cam-space {
+  height: 2em;
+  width: 12em;
+  background: #fff;
+  border-radius: 0 0 1.5em 1.5em;
+  position: absolute;
 }
 
 .avatar .user-img {
