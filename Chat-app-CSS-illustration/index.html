@@ -13,203 +13,141 @@
 
       <!-- MOBILE CONTAINER DESIGN -->
       <div class="wrapper">
-        <div class="mobile">
-          <!-- HEADER SECTION IN MOBILE -->
-          <section>
-            <div class="user-info">
-              <!-- GO-BACK SVG -->
-              <svg
-                class="back-svg"
-                fill="#000000"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="0 0 100 100"
-                enable-background="new 0 0 100 100"
-                xml:space="preserve"
-                stroke="#000000"
-                stroke-width="3.1"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <g>
-                    <path
-                      d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"
-                    ></path>
-                  </g>
-                </g>
-              </svg>
-              <!-- SENDER IMAGE - DOG WALKER-->
-              <div class="avatar">
-                <img
-                  class="user-img"
-                  src="./assets/avatar.jpg"
-                  alt="User Profile"
-                />
-              </div>
-              <!-- SENDER INFO -->
-              <div class="sender-info">
-                <h2>Samuel Green</h2>
-                <p>Available to Walk</p>
-              </div>
-            </div>
-            <!-- MENU SVG -->
-            <svg
-              class="menu-svg"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-              <g
-                id="SVGRepo_tracerCarrier"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              ></g>
-              <g id="SVGRepo_iconCarrier">
-                <path
-                  d="M13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6C12.5523 6 13 5.55228 13 5Z"
-                  stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-                <path
-                  d="M13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12Z"
-                  stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-                <path
-                  d="M13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19Z"
-                  stroke="#000000"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></path>
-              </g>
-            </svg>
-          </section>
-
-          <!-- MAIN CHAT SECTION IN MOBILE -->
-          <!-- *=*SENDER MESSAGES ARE REFERRED TO DOG WALKER'S MESSAGES, AND RECEIVERS MESSAGES ARE REFERRED TO DOG OWNER.*=*-->
-          <section>
-            <!-- SENDER MESSAGES -->
-            <div class="sender-message">
-              <p>That sounds great. I'd be happy with that.</p>
-            </div>
-            <div class="sender-message">
-              <p>Could you send over some picture of your dog, please?</p>
-            </div>
-
-            <!-- DOG OWNER'S MESSAGES - RECEIVER'S MESSAGES-->
-            <div class="owners-messages">
-              <div class="dog-imgs">
-                <img src="./assets/dog-image-1.jpg" alt="Dog Smiling" />
-                <img src="./assets/dog-image-2.jpg" alt="Dog sitting on sand" />
-                <img
-                  src="./assets/dog-image-3.jpg"
-                  alt="Dog holding small tree trunk"
-                />
-              </div>
-              <p>Here are a few pictures. She's a happy girl!</p>
-              <p>Can you make it?</p>
-            </div>
-
-            <!-- SENDER'S MESSAGES -->
-            <div class="sender-message">
-              <p>
-                She looks so happy! The time we discussed works. How long shall
-                I take her out for?
-              </p>
-            </div>
-
-            <!-- DOG WALKERS PRICE ACCORDING TO SESSION TIME -->
-            <div class="time-price">
-              <svg
-                class="circle-button-svg"
-                fill="#000000"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="-225.28 -225.28 962.56 962.56"
-                enable-background="new 0 0 512 512"
-                xml:space="preserve"
-                stroke="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"
-                  ></path>
-                  <path
-                    stroke-width="100"
-                    d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z,320l-48-48 l22.398-25.594L240,272l72-80l24,25.594L240,320z"
-                  ></path>
-                </g>
-              </svg>
-              <p class="time">30 minute walk</p>
-              <p class="price">$29</p>
-            </div>
-
-            <div class="time-price">
-              <svg
-                class="circle-button-svg"
-                fill="#000000"
-                version="1.1"
-                id="Layer_1"
-                xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink"
-                viewBox="-225.28 -225.28 962.56 962.56"
-                enable-background="new 0 0 512 512"
-                xml:space="preserve"
-                stroke="#000000"
-              >
-                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
-                <g
-                  id="SVGRepo_tracerCarrier"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                ></g>
-                <g id="SVGRepo_iconCarrier">
-                  <path
-                    d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"
-                  ></path>
-                  <path
-                    stroke-width="100"
-                    d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z,320l-48-48 l22.398-25.594L240,272l72-80l24,25.594L240,320z"
-                  ></path>
-                </g>
-              </svg>
-              <p class="time">1 hour Walk</p>
-              <p class="price">$49</p>
-            </div>
-          </section>
-
-          <!-- SEND MESSAGE SECTION IN MOBILE LAYOUT -->
-          <section>
-            <div class="message">
-              <div class="text-box">
-                <input type="text" placeholder="Type a message..." />
-              </div>
-              <div class="send-svg">
+        <div class="mobile-container">
+          <div class="mobile">
+            <!-- HEADER SECTION IN MOBILE -->
+            <section>
+              <div class="user-info">
+                <!-- GO-BACK SVG -->
                 <svg
-                  viewBox="0 0 24 24"
-                  fill="none"
+                  class="back-svg"
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
                   xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="0 0 100 100"
+                  enable-background="new 0 0 100 100"
+                  xml:space="preserve"
+                  stroke="#000000"
+                  stroke-width="3.1"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <g>
+                      <path
+                        d="M33.934,54.458l30.822,27.938c0.383,0.348,0.864,0.519,1.344,0.519c0.545,0,1.087-0.222,1.482-0.657 c0.741-0.818,0.68-2.083-0.139-2.824L37.801,52.564L64.67,22.921c0.742-0.818,0.68-2.083-0.139-2.824 c-0.817-0.742-2.082-0.679-2.824,0.139L33.768,51.059c-0.439,0.485-0.59,1.126-0.475,1.723 C33.234,53.39,33.446,54.017,33.934,54.458z"
+                      ></path>
+                    </g>
+                  </g>
+                </svg>
+                <!-- SENDER IMAGE - DOG WALKER-->
+                <div class="avatar">
+                  <img
+                    class="user-img"
+                    src="./assets/avatar.jpg"
+                    alt="User Profile"
+                  />
+                </div>
+                <!-- SENDER INFO -->
+                <div class="sender-info">
+                  <h2>Samuel Green</h2>
+                  <p>Available to Walk</p>
+                </div>
+              </div>
+              <!-- MENU SVG -->
+              <svg
+                class="menu-svg"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                ></g>
+                <g id="SVGRepo_iconCarrier">
+                  <path
+                    d="M13 5C13 4.44772 12.5523 4 12 4C11.4477 4 11 4.44772 11 5C11 5.55228 11.4477 6 12 6C12.5523 6 13 5.55228 13 5Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M13 12C13 11.4477 12.5523 11 12 11C11.4477 11 11 11.4477 11 12C11 12.5523 11.4477 13 12 13C12.5523 13 13 12.5523 13 12Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                  <path
+                    d="M13 19C13 18.4477 12.5523 18 12 18C11.4477 18 11 18.4477 11 19C11 19.5523 11.4477 20 12 20C12.5523 20 13 19.5523 13 19Z"
+                    stroke="#000000"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></path>
+                </g>
+              </svg>
+            </section>
+
+            <!-- MAIN CHAT SECTION IN MOBILE -->
+            <!-- *=*SENDER MESSAGES ARE REFERRED TO DOG WALKER'S MESSAGES, AND RECEIVERS MESSAGES ARE REFERRED TO DOG OWNER.*=*-->
+            <section>
+              <!-- SENDER MESSAGES -->
+              <div class="sender-message">
+                <p>That sounds great. I'd be happy with that.</p>
+              </div>
+              <div class="sender-message">
+                <p>Could you send over some picture of your dog, please?</p>
+              </div>
+
+              <!-- DOG OWNER'S MESSAGES - RECEIVER'S MESSAGES-->
+              <div class="owners-messages">
+                <div class="dog-imgs">
+                  <img src="./assets/dog-image-1.jpg" alt="Dog Smiling" />
+                  <img
+                    src="./assets/dog-image-2.jpg"
+                    alt="Dog sitting on sand"
+                  />
+                  <img
+                    src="./assets/dog-image-3.jpg"
+                    alt="Dog holding small tree trunk"
+                  />
+                </div>
+                <p>Here are a few pictures. She's a happy girl!</p>
+                <p>Can you make it?</p>
+              </div>
+
+              <!-- SENDER'S MESSAGES -->
+              <div class="sender-message">
+                <p>
+                  She looks so happy! The time we discussed works. How long
+                  shall I take her out for?
+                </p>
+              </div>
+
+              <!-- DOG WALKERS PRICE ACCORDING TO SESSION TIME -->
+              <div class="time-price">
+                <svg
+                  class="circle-button-svg"
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-225.28 -225.28 962.56 962.56"
+                  enable-background="new 0 0 512 512"
+                  xml:space="preserve"
+                  stroke="#000000"
                 >
                   <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
                   <g
@@ -219,16 +157,83 @@
                   ></g>
                   <g id="SVGRepo_iconCarrier">
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
-                      d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM9.96967 8.46967C10.2626 8.17678 10.7374 8.17678 11.0303 8.46967L14.0303 11.4697C14.3232 11.7626 14.3232 12.2374 14.0303 12.5303L11.0303 15.5303C10.7374 15.8232 10.2626 15.8232 9.96967 15.5303C9.67678 15.2374 9.67678 14.7626 9.96967 14.4697L12.4393 12L9.96967 9.53033C9.67678 9.23744 9.67678 8.76256 9.96967 8.46967Z"
-                      fill="#1C274C"
+                      d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"
+                    ></path>
+                    <path
+                      stroke-width="100"
+                      d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z,320l-48-48 l22.398-25.594L240,272l72-80l24,25.594L240,320z"
                     ></path>
                   </g>
                 </svg>
+                <p class="time">30 minute walk</p>
+                <p class="price">$29</p>
               </div>
-            </div>
-          </section>
+
+              <div class="time-price">
+                <svg
+                  class="circle-button-svg"
+                  fill="#000000"
+                  version="1.1"
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  viewBox="-225.28 -225.28 962.56 962.56"
+                  enable-background="new 0 0 512 512"
+                  xml:space="preserve"
+                  stroke="#000000"
+                >
+                  <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                  <g
+                    id="SVGRepo_tracerCarrier"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  ></g>
+                  <g id="SVGRepo_iconCarrier">
+                    <path
+                      d="M256,0C114.609,0,0,114.609,0,256s114.609,256,256,256s256-114.609,256-256S397.391,0,256,0z M256,472 c-119.297,0-216-96.703-216-216S136.703,40,256,40s216,96.703,216,216S375.297,472,256,472z"
+                    ></path>
+                    <path
+                      stroke-width="100"
+                      d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z,320l-48-48 l22.398-25.594L240,272l72-80l24,25.594L240,320z"
+                    ></path>
+                  </g>
+                </svg>
+                <p class="time">1 hour Walk</p>
+                <p class="price">$49</p>
+              </div>
+            </section>
+
+            <!-- SEND MESSAGE SECTION IN MOBILE LAYOUT -->
+            <section>
+              <div class="message">
+                <div class="text-box">
+                  <input type="text" placeholder="Type a message..." />
+                </div>
+                <div class="send-svg">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    ></g>
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM9.96967 8.46967C10.2626 8.17678 10.7374 8.17678 11.0303 8.46967L14.0303 11.4697C14.3232 11.7626 14.3232 12.2374 14.0303 12.5303L11.0303 15.5303C10.7374 15.8232 10.2626 15.8232 9.96967 15.5303C9.67678 15.2374 9.67678 14.7626 9.96967 14.4697L12.4393 12L9.96967 9.53033C9.67678 9.23744 9.67678 8.76256 9.96967 8.46967Z"
+                        fill="#1C274C"
+                      ></path>
+                    </g>
+                  </svg>
+                </div>
+              </div>
+            </section>
+          </div>
         </div>
 
         <!-- TEXT INFO -->
