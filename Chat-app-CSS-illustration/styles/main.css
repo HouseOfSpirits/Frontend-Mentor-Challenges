@@ -6,6 +6,7 @@ body {
   margin: 0;
 }
 
+/* BACKGROUND PURPLE CURVE STYLE */
 .purple-curve {
   background: rgb(233, 66, 255);
   background: linear-gradient(
@@ -19,6 +20,7 @@ body {
   position: relative;
 }
 
+/* MOBILE CONTAINER STYLING */
 .mobile-container {
   height: 100vh;
   width: 100vw;
@@ -27,8 +29,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* UNCOMMENT BELOW LINE TO SEE WHY THIS CONTAINER IS MADE */
+  /* background: #f00; */
 }
 
+/* MOBILE OUTER STYLES */
 .mobile {
   width: 21.875em;
   height: 75vh;
