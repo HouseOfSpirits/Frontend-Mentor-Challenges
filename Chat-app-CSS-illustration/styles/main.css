@@ -41,3 +41,8 @@ body {
   border: 0.9375rem solid #fff;
   border-radius: 2em;
 }
+
+/* IMG STYLING */
+img {
+  width: 100%;
+}
