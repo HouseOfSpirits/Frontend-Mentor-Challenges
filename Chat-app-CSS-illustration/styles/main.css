@@ -16,4 +16,15 @@ body {
   width: 50vw;
   height: 70vh;
   border-bottom-right-radius: 100vh;
+  position: relative;
+}
+
+.mobile-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: -4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
