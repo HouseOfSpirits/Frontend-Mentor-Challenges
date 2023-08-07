@@ -83,6 +83,12 @@ img {
   position: absolute;
 }
 
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .avatar .user-img {
   width: 35px;
   border-radius: 50%;
