@@ -30,9 +30,9 @@ body {
 }
 
 .mobile {
-  width: 350px;
+  width: 21.875em;
   height: 75vh;
   background: #f5f3f7;
-  border: 15px solid #fff;
+  border: 0.9375rem solid #fff;
   border-radius: 2em;
 }
