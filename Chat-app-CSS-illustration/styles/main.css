@@ -46,6 +46,8 @@ svg {
   background: #f5f3f7;
   border: 0.9375rem solid #fff;
   border-radius: 2.5em;
+  overflow-y: scroll;
+  scrollbar-width: none;
 }
 
 /* IMG STYLING */
