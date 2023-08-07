@@ -28,3 +28,11 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+.mobile {
+  width: 350px;
+  height: 75vh;
+  background: #f5f3f7;
+  border: 15px solid #fff;
+  border-radius: 2em;
+}
