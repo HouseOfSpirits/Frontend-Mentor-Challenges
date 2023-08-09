@@ -67,7 +67,8 @@ img {
     rgba(136, 56, 255, 1) 100%
   );
   border-radius: 2em 2em 0.625em 0.625em;
-  gap: 1.5em;
+  gap: 2em;
+  padding: 0 0.8em;
 }
 
 .cam-space-container {
@@ -89,11 +90,20 @@ img {
   justify-content: space-around;
 }
 
-.avatar .user-img {
-  width: 35px;
+.avatar {
+  align-self: center;
+  height: 38px;
+  padding-left: 0.2em;
+}
+
+.user-img {
+  width: 38px;
   border-radius: 50%;
+  border: 0.125em solid #fff;
 }
 
 .user-info .sender-info {
   flex: 2;
+  line-height: 0.4em;
+  padding-left: 0.9em;
 }
