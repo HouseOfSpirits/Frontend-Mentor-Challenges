@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #f5f3f7;
+}
+
+/* SVG STYLES */
+svg {
+  width: 1.5625em;
+}
+
+/* BACKGROUND PURPLE CURVE STYLE */
+.purple-curve {
+  background: rgb(233, 66, 255);
+  background: linear-gradient(
+    180deg,
+    rgba(233, 66, 255, 1) 0%,
+    rgba(136, 56, 255, 1) 100%
+  );
+  width: 50vw;
+  height: 70vh;
+  border-bottom-right-radius: 100vh;
+  position: relative;
+}
+
+/* MOBILE CONTAINER STYLING */
+.mobile-container {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: -3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* UNCOMMENT BELOW LINE TO SEE WHY THIS CONTAINER IS MADE */
+  /* background: #f00; */
+}
+
+/* MOBILE OUTER STYLES */
+.mobile {
+  width: 21.875em;
+  height: 75vh;
+  background: #f5f3f7;
+  border: 0.9375rem solid #fff;
+  border-radius: 2.5em;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+/* IMG STYLING */
+img {
+  width: 100%;
+  max-width: 50px;
+}
+
+/* HEADER SECTION STYLING */
+.header {
+  display: flex;
+  flex-direction: column;
+  background: rgb(233, 66, 255);
+  background: linear-gradient(
+    270deg,
+    rgba(233, 66, 255, 1) 0%,
+    rgba(136, 56, 255, 1) 100%
+  );
+  border-radius: 2em 2em 0.625em 0.625em;
+  gap: 2em;
+  padding: 0 0.8em;
+}
+
+.cam-space-container {
+  display: flex;
+  justify-content: center;
+}
+
+.cam-space {
+  height: 2em;
+  width: 12em;
+  background: #fff;
+  border-radius: 0 0 1.5em 1.5em;
+  position: absolute;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.avatar {
+  align-self: center;
+  height: 38px;
+  padding-left: 0.2em;
+}
+
+.user-img {
+  width: 38px;
+  border-radius: 50%;
+  border: 0.125em solid #fff;
+}
+
+.user-info .sender-info {
+  flex: 2;
+  line-height: 0.4em;
+  padding-left: 0.9em;
+}
